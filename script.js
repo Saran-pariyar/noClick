@@ -1,12 +1,12 @@
 const wrapper = document.querySelector('.wrapper');
 const yes_btn = document.querySelector('.yes-btn');
 const no_btn = document.querySelector('.no-btn');
-
+const ques = document.querySelector('.question'); 
 const wrapper_react = wrapper.getBoundingClientRect();
 const no_btn_react = no_btn.getBoundingClientRect();
 
 yes_btn.addEventListener("click",()=>{
-    alert("I <3 you too!");
+    ques.innerHtml = "I like you too" ;
 });
 
 no_btn.addEventListener("click",()=>{
