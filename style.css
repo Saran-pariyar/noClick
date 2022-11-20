@@ -100,6 +100,7 @@ font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 h2{
     font-size: 3rem;
     color: #e82adf;
+text-align:center;
 }
 .btn-group{
     width: 100%;
@@ -123,13 +124,13 @@ button{
 }
 
 button:nth-child(1){
-    margin-left: -200px;
+    margin-left: -150px;
     background-color: #e82a89;
     border: none;
 }
 
 button:nth-child(2){
-    margin-right: -200px;
+    margin-right: -150px;
     background-color: #7d2ae8;
     transition: .2s all;
 }
