@@ -111,9 +111,9 @@ text-align:center;
 }
 button{
     position: absolute;
-    width: 150px;
+    width: 140px;
     height: inherit;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: 600;
     border-radius: 30px;
     border: 2px solid #7d2ae8;
@@ -124,21 +124,23 @@ button{
 }
 
 button:nth-child(1){
-    margin-left: -150px;
+    margin-left: -160px;
     background-color: #e82a89;
     border: none;
 }
 
 button:nth-child(2){
-    margin-right: -150px;
+    margin-right: -160px;
     background-color: #7d2ae8;
     transition: .2s all;
 }
+/*
 .no-btn:hover{
     border: 2px solid #7d2ae8;
     background-color: white;
     color: #7d2ae8;
 }
+*/
 .yes-btn:hover{
 border : 2px solid #e82a89;
 background: white; 
