@@ -101,6 +101,7 @@ h2{
     font-size: 3rem;
     color: #e82adf;
 text-align:center;
+transition : .5s all;
 }
 .btn-group{
     width: 100%;
