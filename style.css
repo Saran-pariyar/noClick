@@ -75,7 +75,10 @@ body{
     justify-content: center; 
     align-items : center; 
     min-height:100vh;
-    background-color:#7d2ae8;
+    background: #c31432;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #240b36, #c31432);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #240b36, #c31432); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 .wrapper{
     position: relative;
@@ -96,7 +99,7 @@ body{
 }
 h2{
     font-size: 3rem;
-    color: #7d2ae8;
+    color: #e82adf;
 }
 .btn-group{
     width: 100%;
@@ -116,14 +119,27 @@ button{
     outline: none;
     cursor: pointer;
     color: white;
+    transition: .5s all;
 }
 
 button:nth-child(1){
     margin-left: -200px;
-    background-color: #7d2ae8;
+    background-color: #e82a89;
+    border: none;
 }
+
 button:nth-child(2){
     margin-right: -200px;
     background-color: #7d2ae8;
     transition: .2s all;
+}
+.no-btn:hover{
+    border: 2px solid #7d2ae8;
+    background-color: white;
+    color: #7d2ae8;
+}
+.yes-btn:hover{
+border : 2px solid #e82a89;
+background: white; 
+color: #e82a89;
 }
