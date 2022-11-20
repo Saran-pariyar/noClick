@@ -56,6 +56,7 @@ cursor: pointer;
 .no-btn{
     background: red;
     position: relative;
+    transition: .3s all;
 }
 
 @media only screen and (max-width:800px) {
