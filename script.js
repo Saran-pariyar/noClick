@@ -9,7 +9,7 @@ yes_btn.addEventListener("click",()=>{
     alert("I <3 you too!");
 });
 
-no_btn.addEventListener("mouseover",()=>{
+no_btn.addEventListener("click",()=>{
     const i = Math.floor(Math.random() * (container_react.width - no_btn_react.width)) + 1;
 
     const j = Math.floor(Math.random() * (container_react.height - no_btn_react.height)) + 1;
