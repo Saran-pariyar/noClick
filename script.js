@@ -6,7 +6,7 @@ const wrapper_react = wrapper.getBoundingClientRect();
 const no_btn_react = no_btn.getBoundingClientRect();
 
 yes_btn.addEventListener("click",()=>{
-    ques.innerHTML = "I like you too!! :) " ;
+    ques.innerHTML = "I knew it!! " ;
 });
 
 no_btn.addEventListener("click",()=>{
